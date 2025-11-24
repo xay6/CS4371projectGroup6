@@ -13,7 +13,7 @@ def make_context():
     """
     ctx = ts.context(
         ts.SCHEME_TYPE.CKKS,
-        poly_mod_degree=8192,
+        poly_modulus_degree=8192,
         coeff_mod_bit_sizes=[40, 20, 20, 40]
     )
     ctx.global_scale = 2**20

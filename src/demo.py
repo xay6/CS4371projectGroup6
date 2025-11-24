@@ -10,9 +10,9 @@
 import time
 import numpy as np
 
-from dataset import load_data
-from encrypt import make_context
-from model import SimpleEncryptedLogReg
+from src.dataset import load_data
+from src.encrypt import make_context
+from src.model import SimpleEncryptedLogReg
 
 
 def acc(y, yp):

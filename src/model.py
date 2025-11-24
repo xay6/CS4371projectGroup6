@@ -8,7 +8,7 @@
 
 import numpy as np
 from sklearn.linear_model import LogisticRegression
-from .encrypt import encrypt_vec, decrypt_scalar, encrypted_linear_layer
+from src.encrypt import encrypt_vec, decrypt_scalar, encrypted_linear_layer
 
 
 class SimpleEncryptedLogReg:
